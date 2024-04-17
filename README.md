@@ -193,7 +193,7 @@ Moving forward, overcoming these challenges will require thorough exploration an
 <p align="justify">
 In conclusion, while our attempt to implement the SRCNN architecture from scratch provided valuable insights and learnings, the superior performance of the pre-trained model highlights the importance of leveraging established frameworks and methodologies in tackling complex tasks like single-image super-resolution. Future research endeavors should focus on refining our custom implementation and exploring innovative approaches to push the boundaries of image enhancement and reconstruction.</p>
 
-```python
+```text
 #Directory Information
 
 Requirements
