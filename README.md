@@ -192,3 +192,41 @@ Moving forward, overcoming these challenges will require thorough exploration an
 
 <p align="justify">
 In conclusion, while our attempt to implement the SRCNN architecture from scratch provided valuable insights and learnings, the superior performance of the pre-trained model highlights the importance of leveraging established frameworks and methodologies in tackling complex tasks like single-image super-resolution. Future research endeavors should focus on refining our custom implementation and exploring innovative approaches to push the boundaries of image enhancement and reconstruction.</p>
+
+```python
+#Directory Information
+
+Requirements
+Python 3.x
+TensorFlow
+Keras
+OpenCV
+NumPy
+Matplotlib
+scikit-image
+
+SRCNN_2XFactor.ipynb is using 2 factor of resize images- FINAL SUBMISIION IS THIS FILE
+SRCNN_4XFactor.ipynb is using 4 factor of resize images
+
+PDF conversion not showing text descriptions properly and not showing uploaded images
+
+Data Preparation:
+
+The img_matrix.py and img_resize.py files contain utility functions for image processing and resizing.
+HR (High-Resolution) images are required for training and testing. They can be stored in the ground_truth directory.
+LR (Low-Resolution) images can be generated from HR images using the img_resize.py script. The LR images are stored in the LR_Images directory.
+Training:
+
+Run the train.h5 script to prepare the training data.
+Train the SRCNN model using the prepared training data by executing the srcnn_model.py script.
+Testing:
+
+Ground_truth - Images used for training later converted into Low Resolution and saved in LR_Images folder
+
+Test the trained SRCNN model on Set5 and Set14 datasets using the predict5 and predict14 functions in the srcnn_model.py script.
+Evaluate the performance of the model by comparing PSNR (Peak Signal-to-Noise Ratio), MSE (Mean Squared Error), and SSIM (Structural Similarity Index) scores.
+Results Visualization:
+
+Visualize the results by comparing the original HR images, degraded LR images, and reconstructed HR images using the SRCNN model.
+Use the img_matrix.py script to calculate image quality scores.
+```
