@@ -38,7 +38,7 @@ The Super-Resolution Convolutional Neural Network (**SRCNN**) method addresses t
 
 ## C. Dataset
 <p align="justify">Gound truth folder containes the 91 training dataset which has been used to train the SRCNN model. </p>
-<p align="justify">Set5 and Set14 datset has been used to test data set where as set14 only used as an validation dataset. 
+<p align="justify">Set5 and Set14 datset has been used to test dataset where as Set14 only used as an validation dataset. 
 </p>
 <p align="justify">The datasets used in this project for testing are Set5 and Set14, which are commonly used for testing in Super-Resolution Convolutional Neural Network (SRCNN) models. These datasets contain high-resolution images that are used to evaluate the performance of the model.
 </p>
@@ -131,7 +131,7 @@ Bilinear and bicubic measurements are two common methods used in image interpola
 
 In the context of your SRCNN model output, the bilinear and bicubic measurements can be used as baseline comparisons to evaluate the performance of the SRCNN model. The SRCNN model aims to produce higher resolution images that are closer to the original high-resolution images than those produced by bilinear or bicubic interpolation methods.
 </p>
-Lets take an example of one of the set 5 dataset output , flwoers: Its Bilinear and Bicubic value that we got are:<br><br>
+Lets take an example of one of the Set5 dataset output , flwoers: Its Bilinear and Bicubic value that we got are:<br><br>
 
 Bicubic:<br>
 Degraded Image:<br>
@@ -160,7 +160,7 @@ SSIM: 0.49185912300096296<br>
 <p align="justify">
 In summary, based on these metrics, the bicubic method appears to provide a better quality of image reconstruction than the bilinear method for your flower images. This information can be useful in your research paper to discuss the performance of different interpolation methods in the context of image super-resolution.<br><br>
 
-Test has been done on the set5 dataset. Below output firgure shows how the SRCNN model perfomrs on the test dataset. As we can see it has not been acurate model yet. It shows the blurriesness into the output and more smoothness than the required. However, noise have been reduced than the low resolution image. More training and dataset has been required to train the model and get the accuarate reults.</p>
+Test has been done on the Set5 dataset. Below output firgure shows how the SRCNN model perfomrs on the test dataset. As we can see it has not been acurate model yet. It shows the blurriesness into the output and more smoothness than the required. However, noise have been reduced than the low resolution image. More training and dataset has been required to train the model and get the accuarate reults.</p>
 
 
 
