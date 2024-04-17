@@ -176,14 +176,19 @@ Test has been done on the Set5 dataset. Below output firgure shows how the SRCNN
 ## J. Conclusion / Future Work
 
 <p align="justify">
-In this project, we delved into the fascinating realm of single-image super-resolution, with the aim of improving the quality of low-resolution images to higher resolutions. Our main focus was on implementing the Super-Resolution Convolutional Neural Network (SRCNN) architecture, both by using pre-trained models and building the model from scratch.<br><br>
+In this project, we delved into the fascinating realm of single-image super-resolution, with the aim of improving the quality of low-resolution images to higher resolutions. Our main focus was on implementing the Super-Resolution Convolutional Neural Network (SRCNN) architecture, both by using pre-trained models and building the model from scratch.</p>
 
-Initially, we took advantage of a pre-trained SRCNN model obtained from the MarkPrecursor SRCNN GitHub repository to upscale low-resolution images. The results we obtained were quite impressive, showing significant enhancements in image quality, sharpness, and overall detail. This demonstrated the effectiveness of SRCNN in elevating image resolution.<br><br>
+<p align="justify">
+Initially, we took advantage of a pre-trained SRCNN model obtained from the MarkPrecursor SRCNN GitHub repository to upscale low-resolution images. The results we obtained were quite impressive, showing significant enhancements in image quality, sharpness, and overall detail. This demonstrated the effectiveness of SRCNN in elevating image resolution.</p>
 
-Several factors may have contributed to the differences in performance between the pre-trained and custom SRCNN models. The pre-trained model benefited from extensive training on large-scale datasets, which allowed it to capture intricate patterns and details crucial for accurate image reconstruction. On the other hand, our custom implementation may have been hampered by limited training data or less-than-optimal hyperparameter settings, leading to less impressive results.<br><br>
+<p align="justify">
+Several factors may have contributed to the differences in performance between the pre-trained and custom SRCNN models. The pre-trained model benefited from extensive training on large-scale datasets, which allowed it to capture intricate patterns and details crucial for accurate image reconstruction. On the other hand, our custom implementation may have been hampered by limited training data or less-than-optimal hyperparameter settings, leading to less impressive results.</p>
 
-Furthermore, the nuances of the SRCNN architecture, such as kernel sizes, depth of convolutional layers, and learning rates, greatly influence the model's effectiveness. Even slight deviations in these parameters can have a significant impact on the model's ability to learn meaningful representations and generate high-quality reconstructions.<br><br>
+<p align="justify">
+Furthermore, the nuances of the SRCNN architecture, such as kernel sizes, depth of convolutional layers, and learning rates, greatly influence the model's effectiveness. Even slight deviations in these parameters can have a significant impact on the model's ability to learn meaningful representations and generate high-quality reconstructions.</p>
 
-Moving forward, overcoming these challenges will require thorough exploration and experimentation with hyperparameter tuning, data augmentation techniques, and architectural adjustments. Additionally, exploring advanced super-resolution techniques, such as Generative Adversarial Networks (GANs) or attention mechanisms, holds promise for further enhancing image quality and realism.<br><br>
+<p align="justify">
+Moving forward, overcoming these challenges will require thorough exploration and experimentation with hyperparameter tuning, data augmentation techniques, and architectural adjustments. Additionally, exploring advanced super-resolution techniques, such as Generative Adversarial Networks (GANs) or attention mechanisms, holds promise for further enhancing image quality and realism.</p>
 
+<p align="justify">
 In conclusion, while our attempt to implement the SRCNN architecture from scratch provided valuable insights and learnings, the superior performance of the pre-trained model highlights the importance of leveraging established frameworks and methodologies in tackling complex tasks like single-image super-resolution. Future research endeavors should focus on refining our custom implementation and exploring innovative approaches to push the boundaries of image enhancement and reconstruction.</p>
