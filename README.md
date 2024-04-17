@@ -36,7 +36,7 @@ The Super-Resolution Convolutional Neural Network (**SRCNN**) method addresses t
 ## B. Methodology:
 <p align="justify">In this project, we show that the aforementioned pipeline is equivalent to a deep convolutional neural network. Motivated by this fact, we consider a convolutional neural network that directly learns an end-to-end mapping between low- and high-resolution images. This method differs fundamentally from existing external example-based approaches, in that this method does not explicitly learn the dictionaries  or manifolds  for modelling the patch space. These are implicitly achieved via hidden layers. Furthermore, the patch extraction and aggregation are also formulated as convolutional layers, so are involved in the optimization. In this method, the entire SR pipeline is fully obtained through learning, with little pre postprocessing. The proposed SRCNN has several appealing properties. First, its structure is intentionally designed with simplicity in mind, and yet provides superior accuracy compared with state-of-the-art example-based methods.</p>
 
-### C. Dataset
+## C. Dataset
 <p align="justify">Gound truth folder containes the 91 training dataset which has been used to train the SRCNN model. </p>
 <p align="justify">Set5 and Set14 datset has been used to test data set where as set14 only used as an validation dataset. 
 </p>
@@ -47,10 +47,10 @@ The Super-Resolution Convolutional Neural Network (**SRCNN**) method addresses t
 <p align="justify">The method used in this project is the SRCNN model, which is a deep learning model designed for image super-resolution. The model is trained using the Mean Squared Error (MSE) loss function, which measures the average squared differences between the estimated and actual values.
 </p>
 
-### Experiments
+## Experiments
 Trained the model with different hyperparameters such as batch size, epochs, etc and the key results of each experiment. This includes code snippets for running the experiments and figures generated as a result of the experiments.
 
-### D. Error Measurement
+## D. Error Measurement
 <p align="justify">
 - Peak Signal-to-Noise Ratio (PSNR):
 PSNR is a commonly used metric to evaluate the quality of reconstructed images. It measures the ratio between the maximum possible power of a signal and the power of corrupting noise that affects the fidelity of its representation. In the context of super-resolution, PSNR compares the quality of the high-resolution image produced by a super-resolution algorithm to the original high-resolution image. Higher PSNR values indicate better reconstruction quality.</p>
@@ -78,7 +78,7 @@ MSE: 770.900224161778<br>
 SSIM: 0.8604474478701217<br>
 
 
-### E. Training
+## E. Training
 <p align="justify">
 We trained the model for 500 epoches on google colab gpu after which it shows the below graph. At the top indicates early stopping at epoch 25, as the validation loss did not improve from 0.02373. Early stopping is a form of regularization used to prevent overfitting when training a learner with an iterative method.</p>
 
@@ -115,13 +115,13 @@ In summary, both SRCNN and FSRCNN are deep learning models designed for single-i
 
 ## I. Test
 
-**SRCNN Model Output Explanation**
+### **SRCNN Model Output Explanation**
 <p align="justify">
  The model takes a low-resolution image as input and outputs a high-resolution version of the same image. The SRCNN model achieves this by passing the low-resolution images through a series of non-linear functions.<br><br>
 
 Mathematically, if `Y` is the low-resolution image, the SRCNN model applies a function `F` such that the output `X` is a high-resolution version of `Y`. This can be represented as `X = F(Y)`¹¹. In the SRCNN model, `n1` and `n2` represent the number of output channels of the convolutional layers, and `fx x fx` represent the kernel sizes of the convolutional layers.</p>
 
-**Bilinear and Bicubic Measurements**
+### **Bilinear and Bicubic Measurements**
 <p align="justify">
 Bilinear and bicubic measurements are two common methods used in image interpolation, which is the process of estimating pixel values in an image.<br>
 
