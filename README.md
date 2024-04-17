@@ -167,6 +167,9 @@ Test has been done on the Set5 dataset. Below output firgure shows how the SRCNN
 <img src="output/1.png" alt="SRCNN Model Figure" width="120%"><br>
 <img src="output/2.png" alt="SRCNN Model Figure" width="120%"><br>
 <img src="output/3.png" alt="SRCNN Model Figure" width="120%"><br>
+<img src="output/3.png" alt="SRCNN Model Figure" width="120%"><br>
+<img src="output/3.png" alt="SRCNN Model Figure" width="120%"><br>
+
 
 
 
