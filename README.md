@@ -19,8 +19,8 @@ in developing an autonomous navigation system. Despite the
 
 ## Advantages:<p align="justify">
 - SRCNN was one of the early successful attempts at utilizing deep learning for single-image super-resolution.<br>
-- It showed significant improvements over traditional interpolation-based methods in terms of perceptual quality metrics like Peak Signal-to-Noise Ratio (PSNR) and Mean Squared Error (MSE).<br><br>
-
+- It showed significant improvements over traditional interpolation-based methods in terms of perceptual quality metrics like Peak Signal-to-Noise Ratio (PSNR) and Mean Squared Error (MSE).<br><br></p>
+<p align="justify">
 Single image super-resolution, which aims at
  recovering a high-resolution image from a single low
 resolution image, is a classical problem in computer
