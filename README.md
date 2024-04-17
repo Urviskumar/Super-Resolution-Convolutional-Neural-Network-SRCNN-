@@ -50,7 +50,7 @@ The Super-Resolution Convolutional Neural Network (**SRCNN**) method addresses t
 ### Experiments
 Trained the model with different hyperparameters such as batch size, epochs, etc and the key results of each experiment. This includes code snippets for running the experiments and figures generated as a result of the experiments.
 
-### Error Measurement
+### D. Error Measurement
 <p align="justify">
 - Peak Signal-to-Noise Ratio (PSNR):
 PSNR is a commonly used metric to evaluate the quality of reconstructed images. It measures the ratio between the maximum possible power of a signal and the power of corrupting noise that affects the fidelity of its representation. In the context of super-resolution, PSNR compares the quality of the high-resolution image produced by a super-resolution algorithm to the original high-resolution image. Higher PSNR values indicate better reconstruction quality.</p>
@@ -78,7 +78,7 @@ MSE: 770.900224161778<br>
 SSIM: 0.8604474478701217<br>
 
 
-### Training
+### E. Training
 <p align="justify">
 We trained the model for 500 epoches on google colab gpu after which it shows the below graph. At the top indicates early stopping at epoch 25, as the validation loss did not improve from 0.02373. Early stopping is a form of regularization used to prevent overfitting when training a learner with an iterative method.</p>
 
@@ -98,7 +98,7 @@ We trained the model for 500 epoches on google colab gpu after which it shows th
 
 <img src="output/training_curve.png" alt="Training Curve" width="120%">
 
-## SRCNN vs. FSRCNN:
+## F. SRCNN vs. FSRCNN:
 <p align="justify">
 Fast Super-Resolution Convolutional Neural Network (FSRCNN) is an improvement over SRCNN, proposed by Jo et al. in 2016. It aimed to enhance both the computational efficiency and the reconstruction quality of single-image super-resolution.</p>
 <img src="https://cdn-images-1.medium.com/v2/resize:fit:2000/1*auit3UsBTjbnzZoLDEJUUg.png" alt="SRCNN Model Figure" width="120%">
@@ -113,7 +113,7 @@ Fast Super-Resolution Convolutional Neural Network (FSRCNN) is an improvement ov
 <p align="justify">
 In summary, both SRCNN and FSRCNN are deep learning models designed for single-image super-resolution, with FSRCNN being a more computationally efficient variant. PSNR and MSE are metrics commonly used to evaluate the quality of reconstructed images, where higher PSNR values and lower MSE values indicate better reconstruction quality.</p>
 
-## Test
+## I. Test
 
 **SRCNN Model Output Explanation**
 <p align="justify">
@@ -170,7 +170,7 @@ Test has been done on the set5 dataset. Below output firgure shows how the SRCNN
 
 
 
-## Conclusion / Future Work
+## J. Conclusion / Future Work
 
 <p align="justify">
 In this project, we delved into the fascinating realm of single-image super-resolution, with the aim of improving the quality of low-resolution images to higher resolutions. Our main focus was on implementing the Super-Resolution Convolutional Neural Network (SRCNN) architecture, both by using pre-trained models and building the model from scratch.<br><br>
