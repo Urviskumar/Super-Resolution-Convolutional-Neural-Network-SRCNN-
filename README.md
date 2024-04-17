@@ -33,20 +33,21 @@ verse problem, of which solution is not unique. Such
 Image super-resolution is the process of generating a high-resolution (HR) image from a low-resolution (LR) input. This problem is crucial in various fields such as computer vision, medical imaging, and satellite imagery analysis. The importance lies in enhancing the visual quality of images, enabling better perception and analysis of details. Traditional methods for image super-resolution often suffer from computational complexity and the loss of image details.</p>
 <img src="https://pic2.zhimg.com/v2-48339af4c2ac2ad7f858eecf513dfacd_r.jpg" alt="SRCNN Model Figure" width="120%">
 
-The Super-Resolution Convolutional Neural Network (**SRCNN**) method addresses these **challenges** by leveraging deep learning techniques. SRCNN has shown promising results in generating high-quality super-resolved images efficiently. It builds upon prior work in **deep learning-based** image processing, particularly in convolutional neural networks (CNNs) and image reconstruction.
+The Super-Resolution Convolutional Neural Network (**SRCNN**) method addresses these challenges by leveraging deep learning techniques. SRCNN has shown promising results in generating high-quality super-resolved images efficiently. It builds upon prior work in **deep learning-based** image processing, particularly in convolutional neural networks (CNNs) and image reconstruction.</p>
 
-## Methodology:<p align="justify">
-In this project, we show that the aforementioned pipeline is equivalent to a deep convolutional neural network. Motivated by this fact, we consider a convolutional neural network that directly learns an end-to-end mapping between low- and high-resolution images. This method differs fundamentally from existing external example-based approaches, in that this method does not explicitly learn the dictionaries  or manifolds  for modelling the patch space. These are implicitly achieved via hidden layers. Furthermore, the patch extraction and aggregation are also formulated as convolutional layers, so are involved in the optimization. In this method, the entire SR pipeline is fully obtained through learning, with little pre/postprocessing. The proposed SRCNN has several appealing properties. First, its structure is intentionally designed with simplicity in mind, and yet provides superior accuracy compared with state-of-the-art example-based methods.</p>
+## B. Methodology:
+<p align="justify">In this project, we show that the aforementioned pipeline is equivalent to a deep convolutional neural network. Motivated by this fact, we consider a convolutional neural network that directly learns an end-to-end mapping between low- and high-resolution images. This method differs fundamentally from existing external example-based approaches, in that this method does not explicitly learn the dictionaries  or manifolds  for modelling the patch space. These are implicitly achieved via hidden layers. Furthermore, the patch extraction and aggregation are also formulated as convolutional layers, so are involved in the optimization. In this method, the entire SR pipeline is fully obtained through learning, with little pre/postprocessing. The proposed SRCNN has several appealing properties. First, its structure is intentionally designed with simplicity in mind, and yet provides superior accuracy compared with state-of-the-art example-based methods.</p>
 
-### Dataset
-- Gound truth folder containes the 97 training dataset which has been used to train the SRCNN model. 
-- Set5 and Set14 datset has been used to test data set where as set14 only used as an validation dataset. 
-
-- The datasets used in this project for testing are Set5 and Set14, which are commonly used for testing in Super-Resolution Convolutional Neural Network (SRCNN) models. These datasets contain high-resolution images that are used to evaluate the performance of the model.
-
-- For tranining the images we have used the 97 images from the training dataset of the SRCNN model original paper that they have used.
-
-- The method used in this project is the SRCNN model, which is a deep learning model designed for image super-resolution. The model is trained using the Mean Squared Error (MSE) loss function, which measures the average squared differences between the estimated and actual values.
+### C. Dataset
+- <p align="justify">Gound truth folder containes the 97 training dataset which has been used to train the SRCNN model. </p>
+- <p align="justify">Set5 and Set14 datset has been used to test data set where as set14 only used as an validation dataset. 
+</p>
+- <p align="justify">The datasets used in this project for testing are Set5 and Set14, which are commonly used for testing in Super-Resolution Convolutional Neural Network (SRCNN) models. These datasets contain high-resolution images that are used to evaluate the performance of the model.
+</p>
+- <p align="justify">For tranining the images we have used the 97 images from the training dataset of the SRCNN model original paper that they have used.
+</p>
+- <p align="justify">The method used in this project is the SRCNN model, which is a deep learning model designed for image super-resolution. The model is trained using the Mean Squared Error (MSE) loss function, which measures the average squared differences between the estimated and actual values.
+</p>
 
 ### Experiments
 Trained the model with different hyperparameters such as batch size, epochs, etc and the key results of each experiment. This includes code snippets for running the experiments and figures generated as a result of the experiments.
