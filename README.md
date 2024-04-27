@@ -2,7 +2,7 @@
 
 ## Basic Overview
 
- <p align="justify">We decided to roll up our sleeves and implement the SRCNN architecture from scratch. We meticulously implemeted each component of the network, including convolutional layers, activation functions, and loss functions. Despite our best efforts in optimization, our custom SRCNN implementation didn't quite meet our expectations. The resulting high-resolution images appeared noticeably blurry and lacked the crispness seen with the pre-trained model.</p>
+ <p align="justify">We decided to roll up our sleeves and implement the SRCNN architecture from scratch. We meticulously implemented each component of the network, including convolutional layers, activation functions, and loss functions. Despite our best efforts in optimization, our custom SRCNN implementation didn't quite meet our expectations. The resulting high-resolution images appeared noticeably blurry and lacked the crispness seen with the pre-trained model.</p>
 
  <img src="output/1.png" alt="SRCNN Model Figure" width="120%">
 
